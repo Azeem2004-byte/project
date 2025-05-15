@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #bae423;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('./a.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    filter: brightness(0.7); /* Optional: darken the background for better contrast */
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    text-align: center; /* Center-align the heading and calculator */
+}
+
+.heading {
+    font-size: 2em; /* Adjust font size for the heading */
+    margin-bottom: 20px; /* Space between heading and calculator */
+    color: #ebee2a; /* Change heading color */
+}
+
+.calculator {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+#display {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    height: 60px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+.container{
+        margin: 10px;
+    }
+    #display {
+        height: 35px;
+        font-size: 18px;
+    }
+
+    button {
+        height: 45px;
+        font-size: 18px;
+    }
+}
