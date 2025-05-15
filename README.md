@@ -1,2 +1,2 @@
-# project
+# Calculator-project
 frontend-developement
